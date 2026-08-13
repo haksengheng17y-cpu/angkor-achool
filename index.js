@@ -1,3 +1,19 @@
+/* ================= MOBILE MENU (DROPDOWN) ================= */
+
+const menuBtn = document.getElementById("menuBtn");
+const navbar = document.getElementById("navbar");
+
+// ចុចលើរូប ☰ ដើម្បីបើក ឬបិទ Menu
+menuBtn.addEventListener("click", () => {
+  navbar.classList.toggle("active");
+});
+
+// បិទ Menu ស្វ័យប្រវត្ត នៅពេលដែលអ្នកចុចលើ Link ណាមួយក្នុង Menu
+document.querySelectorAll(".navbar a").forEach(link => {
+  link.addEventListener("click", () => {
+    navbar.classList.remove("active");
+  });
+});
 /* ================= MOBILE MENU ================= */
 
 const menuBtn = document.getElementById("menuBtn");
