@@ -14,15 +14,7 @@ document.querySelectorAll(".navbar a").forEach(link => {
     navbar.classList.remove("active");
   });
 });
-/* ================= MOBILE MENU ================= */
-
-const menuBtn = document.getElementById("menuBtn");
-const navbar = document.getElementById("navbar");
-
-menuBtn.addEventListener("click", () => {
-  navbar.classList.toggle("active");
-});
-
+ 
 
 /* Close mobile menu after clicking a link */
 
