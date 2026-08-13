@@ -346,11 +346,7 @@ a {
 }
 
 /* Responsive សម្រាប់អេក្រង់តូច */
-@media (max-width: 900px) {
-  .vice-principals-grid {
-    grid-template-columns: 1fr;
-  }
-}
+ 
 @media (max-width: 900px) {
   .navbar {
     position: absolute;
